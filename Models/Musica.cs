@@ -1,6 +1,6 @@
 using System;
 
-namespace MusicFy_Backend.Models
+namespace API.models
 {
 
 
@@ -15,8 +15,12 @@ namespace MusicFy_Backend.Models
 
         public int Id { get; set; }
         public string nome { get; set; }
-        public string estilo { get; set;}
+
         public string cantor { get; set; }
+
+        public int anoLancamento { get; set; }
+
+        public string estilo { get; set; }
 
         public DateTime CriadoEm { get; set; }
 

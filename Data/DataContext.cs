@@ -1,7 +1,7 @@
-using MusicFy_Backend.Models;
+using API.models;
 using Microsoft.EntityFrameworkCore;
 
-namespace MusicFy_Backend.Data
+namespace API.Data
 {
     public class DataContext : DbContext
     {

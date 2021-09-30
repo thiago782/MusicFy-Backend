@@ -1,3 +1,3 @@
-# MusicFy-Backend
-prova do primeiro bimestre Desenvolvimento de Software 29/09/2021    alunos: thiago de lima, kleyton porto.
-commit inicial obrigatorio da prova
+# JobSeerkerFy
+JobSeerkerFy - Este Projeto Desenvolvido é um modelo de buscador de empregos.  
+Onde sera realizado a busca de vagas por meio de uma plataforma web

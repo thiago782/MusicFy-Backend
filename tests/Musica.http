@@ -4,10 +4,29 @@ Content-Type: application/json
 
 {
 "nome" : "Vida Loka pt 1",
-"estilo" : "Rap", 
-"cantor" : "Racionais MC"
+"cantor" : "Racionais MC",
+"anoLancamento": 1999,
+"estilo": "RAP"
 }
 
-###Lista Produtos
+###Lista Musicas
 GET https://localhost:5001/api/musica/list
 
+### Busca musica pelo id
+GET https://localhost:5001/api/musica/getbyid/2
+
+### Deleta pelo nome da musica
+DELETE  https://localhost:5001/api/musica/delete/Vida Loka pt 1
+
+
+
+//esse aqui eu n consegui ainda
+### Altera Musica
+PUT https://localhost:5001/api/musica/update/1
+{
+"nome" : "Vida Loka pt 11",
+"cantor" : "Racionais MC",
+"anoLancamento": 1999,
+"estilo": "RAP"
+
+}
