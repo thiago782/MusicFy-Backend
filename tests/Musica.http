@@ -1,0 +1,13 @@
+###Cria Musica
+POST https://localhost:5001/api/musica/create
+Content-Type: application/json
+
+{
+"nome" : "Vida Loka pt 1",
+"estilo" : "Rap", 
+"cantor" : "Racionais MC"
+}
+
+###Lista Produtos
+GET https://localhost:5001/api/musica/list
+
